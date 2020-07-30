@@ -1,1 +1,6 @@
-# Add  code here!
+def prime?(num)
+  if num >= 2 do
+  (2.. num-1).none? {|i| num % i == 0}
+else
+  false
+end
